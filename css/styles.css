@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 10;
+  box-sizing: border-box;
+  outline: none; border: none;
+  transition: all .2s linear;
+  font-family: sans-serif;
+}
+.main-container{
+  margin: 0 auto;
+  padding: 0; 
+  color:#0a0a0a ;
+  background: #fff;
+}
+.main-container .wrapper{
+  margin-top: 0;
+  overflow: hidden;
+width: 100%;
+min-height: 30rem;
+background: url(section-trading-station-web.jpg) no-repeat center center;
+
+
+
+}
+.section{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 1%;
+}
+.section h1{
+  color: #d7d5d5;
+  margin-top: 15%;
+  font-size: 5mm;
+  line-height: 30px;
+}
+.section p{
+  color: grey;
+  margin-top: 2%;
+  font-family: sans-serif;
+}
+.btn-1{
+  background-color: orangered;
+  margin-top: 5%;
+  padding: 0.7rem 1rem;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.feature{
+  margin-top: 10px;
+  margin-bottom: 2%;
+}
+.features button{
+  padding: 0.7rem 2rem;
+  margin-right: 2rem;
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+
+.main-container .products-container{
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 40px;
+  padding-top: 5px;
+}
+
+
+.main-container .products-container .product{
+  text-align: center;
+  padding: 3rem 2rem;
+  background: #fff;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  outline: .1rem solid #ccc;
+  outline-offset: -1.5rem;
+  cursor:pointer;
+  margin-bottom: 2rem;
+}
+
+.main-container .products-container .product:hover{
+  outline: .2rem solid #d0cece;
+  outline-offset: 1; 
+}
+.main-container .products-container .product p{
+width: 100%;
+}
+.main-container .products-container .product:hover p{
+  transform: scale(1.1);
+
+}
+.main-container .products-container .product h3{
+  padding: 1rem 0;
+  font-size: 1rem;
+  color: #444;
+}
+
+.main-container .products-container .product:hover h3{
+  color: #27ae60;
+}
+.main-container .products-container .product .price{
+  font-size: 2rem;
+  color: #444;
+}
+
